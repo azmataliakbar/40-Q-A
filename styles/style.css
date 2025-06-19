@@ -1,0 +1,38 @@
+/* 🎯 Make each section wrap normally, fully visible */
+.question {
+    color: #1E88E5;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 8px;
+    white-space: normal;       /* ✅ Allow wrapping */
+    overflow: visible;         /* ✅ No scroll, show all */
+    text-overflow: unset;      /* ✅ No ... */
+    display: block;
+}
+
+.answer {
+    color: #43A047;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    display: block;
+}
+
+.example {
+    color: #E64A19;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 8px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    display: block;
+}
+
+.qa-line {
+    margin-bottom: 30px;
+}
